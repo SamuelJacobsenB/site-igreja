@@ -10,6 +10,7 @@ body {
     background-color: rgb(255, 244, 230);
 }
 
+
 header {
     background-color: white;
     padding: 10px;
@@ -80,6 +81,15 @@ main > h2 {
     padding-top: 20px;
 }
 
+u {
+    font-size: 1.2em;
+}
+
+strong {
+    color: black;
+    background-color: rgba(117, 163, 255, 0.831);
+}
+
 p {
     text-indent: 15px;
     text-align: justify;
@@ -88,6 +98,11 @@ p {
     font-size: 16px;
     padding: 10px;
     padding-bottom: 5px;
+}
+
+p > img {
+    display: block;
+    margin: auto;
 }
 
 section {
@@ -119,6 +134,20 @@ section a {
     color: black;
 }
 
+aside {
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+
+
+aside img {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 footer {
     max-width: 920px;
     margin: auto;
@@ -137,10 +166,27 @@ p.degrade-cima {
     background-image: linear-gradient(to top,rgba(0, 85, 255, 0.557), rgba(255, 255, 255, 0));
 }
 
+p.sem-indent {
+    text-indent: 0px;
+}
+
+.prog {
+    text-align: center;
+    line-height: 30px;
+}
+
 .azul {
     padding: 10px;
     color: rgba(0, 68, 205, 0.831);
     text-align: left;
+}
+
+#margem-h1-top {
+    margin-top: 30px;
+}
+
+#margem-h1-bottom {
+    margin-bottom: 20px;
 }
 
 #local {
